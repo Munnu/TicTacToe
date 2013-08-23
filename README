@@ -1,0 +1,5 @@
+I made this program from scratch. Most of the read me is in the .py file itself. Look there if you must.
+
+The .py file is well documented, that's like my forte. It makes a 3x3 tic tac toe board... well, it's not a board but some blank spaces (see printBoard method). This game could have been done easily with functions, but I wanted to try my hand at doing it the OOP way. There may be a few glitches, but it's can be run and played with. The computer algorithm isn't intelligent, it does not monitor the player's moves in relation to its own... Specifically, it uses randint.
+
+This works well with 2.7, but some changes will need to be made for it to be compatible with 3.x. For instance, raw_input() should be changed to input(). With 3.x, we do not need encapsulation, so the int() that covers the raw_input is no longer needed as input() takes care of it. Print now requires parenthesis. Other than that, I cannot think of anything else. I really enjoyed programming this game.
